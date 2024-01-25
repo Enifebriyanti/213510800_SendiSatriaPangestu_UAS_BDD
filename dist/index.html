@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase 9 | Getting Started with Shandy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #495057;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1, h2, h3 {
+            color: #007BFF;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input {
+            padding: 10px;
+            margin-bottom: 16px;
+            width: 100%;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        button.logout {
+            background-color: #dc3545;
+        }
+
+        button.unsub {
+            background-color: #6c757d;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Getting Started with Firebase 9</h1>
+        <h2>Firebase Firestore</h2>
+
+        <form class="add">
+            <label for="judul">Judul:</label>
+            <input type="text" name="judul" required>
+            <label for="penulis">Penulis:</label>
+            <input type="text" name="penulis" required>
+            <button>Tambahkan Buku Baru</button>
+        </form>
+
+        <form class="delete">
+            <label for="id">Document ID:</label>
+            <input type="text" name="id" required>
+            <button>Hapus Buku</button>
+        </form>
+
+        <form class="update">
+            <label for="id">Document ID:</label>
+            <input type="text" name="id" required>
+            <button>Update Buku</button>
+        </form>
+
+        <h2>Firebase Auth</h2>
+        <form class="signup">
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+            <button>Sign Up</button>
+        </form>
+
+        <h3>Login User</h3>
+        <form class="login">
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+            <button>Login</button>
+        </form>
+
+        <button class="logout">Logout</button>
+
+        <h3>Unsubscribing</h3>
+        <button class="unsub">Unsubscribe From db/auth Changes</button>
+    </div>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
