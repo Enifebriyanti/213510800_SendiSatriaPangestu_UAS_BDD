@@ -1,5 +1,5 @@
 Kelompok AsikinAjaa
-SENDI SATRIA PANGESTU 		    213510800
-RISNA AMANDA				          213510221
-AISYAH RAHAYU PUTRI RIRI H 		213510208
-RAKHEL SYAHARANI NAZWA 		    213510590
+dilla sahla saputra
+eni febriyanti
+muhammad reza algafary
+prayoga arief pradana
