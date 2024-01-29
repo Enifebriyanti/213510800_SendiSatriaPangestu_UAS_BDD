@@ -17,9 +17,9 @@ import {
 
 const firebaseConfig = {
     apiKey: "AIzaSyArXzWEwnR-PY-qJMcstjDNBvlaHwZAwto",
-    authDomain: "fir-9-sendi.firebaseapp.com",
-    projectId: "fir-9-sendi",
-    storageBucket: "fir-9-sendi.appspot.com",
+    authDomain: "fir-9-eni.firebaseapp.com",
+    projectId: "fir-9-enii",
+    storageBucket: "fir-9-eni.appspot.com",
     messagingSenderId: "300527154096",
     appId: "1:300527154096:web:8350e15e108a1164d75c75"
 };
